@@ -114,7 +114,6 @@ div.work-section h3 {
 div.work-section-screenshot-area {
   /* Positioning */
   /* Box-model */
-
   margin-bottom: 0;
   padding-bottom: 0;
   /* Typography */
@@ -126,6 +125,7 @@ div.work-section-screenshot-area {
 div.work-section-screenshot-area img {
   position: relative;
   top: 4px;
+  bottom: 0;
 }
 
 div.work-section-details:after {
