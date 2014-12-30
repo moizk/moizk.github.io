@@ -51,7 +51,7 @@ div.about-section {
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   div.about-section {
     padding: 0 15px;
   }
@@ -163,7 +163,7 @@ div.work-section-details p {
   /* Misc */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   div.work-section-details p {
     padding: 0 15px;
   }
