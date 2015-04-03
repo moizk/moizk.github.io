@@ -417,8 +417,7 @@ div.moiz-jumbotron {
 div.moiz-about {
   /* Positioning */
   /* Box-model */
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 150px 15px;
   /* Typography */
   /* Visual */
   /* Misc */ }
