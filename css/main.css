@@ -2588,6 +2588,11 @@ body {
   margin: 0;
   font-family: 'Gotham SSm A', 'Gotham SSm B'; }
 
+/*****************************************************************************/
+/*
+/* Introduction Section
+/*
+/*****************************************************************************/
 div.moiz-jumbotron {
   /* Positioning */
   /* Box-model */
@@ -2645,6 +2650,11 @@ div.moiz-jumbotron {
       color: #333;
       /* Misc */ }
 
+/*****************************************************************************/
+/*
+/* About Section
+/*
+/*****************************************************************************/
 div.moiz-about {
   /* Positioning */
   /* Box-model */
@@ -2710,42 +2720,86 @@ div.moiz-about {
       /* Visual */
       /* Misc */ }
 
+/*****************************************************************************/
+/*
+/* Work Section
+/*
+/*****************************************************************************/
 div.moiz-work {
   /* Positioning */
   /* Box-model */
   padding: 150px 15px;
   /* Typography */
   /* Visual */
-  background-color: #eeecea;
+  background-color: #1d1d1d;
   /* Misc */ }
+  div.moiz-work img {
+    /* Positioning */
+    /* Box-model */
+    max-width: 200px;
+    margin-bottom: 40px;
+    /* Typography */
+    /* Visual */
+    /* Misc */ }
   div.moiz-work h2 {
     /* Positioning */
     /* Box-model */
-    margin-bottom: 0;
+    margin-top: 0 auto;
     /* Typography */
     font-size: 42px;
+    text-align: center;
     /* Visual */
+    color: #fff;
     /* Misc */ }
   div.moiz-work h3 {
     /* Positioning */
     /* Box-model */
-    margin-top: 0;
-    max-width: 100px;
-    border-bottom: 1px solid #111;
+    margin: 0 auto;
+    width: 100px;
     /* Typography */
+    text-align: center;
+    /* Visual */
+    border-bottom: 1px solid #fff;
+    /* Misc */ }
+  div.moiz-work h4 {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    text-align: center;
+    color: #ffc03a;
     /* Visual */
     /* Misc */ }
-  div.moiz-work p.lead {
+  div.moiz-work hr {
+    /* Positioning */
+    /* Box-model */
+    max-width: 400px;
+    margin: 60px auto 50px auto;
+    /* Typography */
+    /* Visual */
+    border-color: #4e4e4e;
+    /* Misc */ }
+  div.moiz-work img#nooklyn-logo {
+    /* Positioning */
+    /* Box-model */
+    margin-bottom: 0;
+    /* Typography */
+    color: #fff;
+    /* Visual */
+    /* Misc */ }
+  div.moiz-work p {
     /* Positioning */
     /* Box-model */
     max-width: 310px;
+    margin: 60px auto 0 auto;
     /* Typography */
     font-family: 'Mercury SSm A', 'Mercury SSm B';
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     line-height: 1.6;
+    text-align: justify;
     /* Visual */
+    color: #fff;
     /* Misc */ }
   div.moiz-work a {
     /* Positioning */
@@ -2764,38 +2818,28 @@ div.moiz-work {
       /* Visual */
       /* Misc */ }
 
-div.moiz-work-card {
+div.moiz-work-ss {
   /* Positioning */
   /* Box-model */
-  padding-top: 50px;
-  max-width: 940px;
   margin: 0 auto;
+  max-width: 99%;
   /* Typography */
+  text-align: center;
   /* Visual */
   /* Misc */ }
-  div.moiz-work-card img {
-    max-height: 400px; }
-  div.moiz-work-card div.moiz-work-card-stub {
+  div.moiz-work-ss img {
     /* Positioning */
     /* Box-model */
-    padding: 20px 20px 50px 20px;
+    max-width: 330px;
     /* Typography */
     /* Visual */
-    background-color: #fff;
     /* Misc */ }
-    div.moiz-work-card div.moiz-work-card-stub p {
-      /* Positioning */
-      /* Box-model */
-      /* Typography */
-      font-family: 'Mercury SSm A', 'Mercury SSm B';
-      font-size: 16px;
-      font-weight: 300;
-      font-style: normal;
-      line-height: 1.6;
-      text-align: center;
-      /* Visual */
-      /* Misc */ }
 
+/*****************************************************************************/
+/*
+/* Contact Section
+/*
+/*****************************************************************************/
 div.moiz-contact {
   /* Positioning */
   /* Box-model */
@@ -2805,34 +2849,48 @@ div.moiz-contact {
   background-color: #052e91;
   color: #fffef9;
   /* Misc */ }
+  div.moiz-contact img {
+    /* Positioning */
+    /* Box-model */
+    max-width: 200px;
+    margin-bottom: 40px;
+    /* Typography */
+    /* Visual */
+    /* Misc */ }
   div.moiz-contact h2 {
     /* Positioning */
     /* Box-model */
-    margin-bottom: 0;
+    margin-top: 0 auto;
     /* Typography */
     font-size: 42px;
+    text-align: center;
     /* Visual */
+    color: #fff;
     /* Misc */ }
   div.moiz-contact h3 {
     /* Positioning */
     /* Box-model */
-    margin-top: 0;
-    max-width: 100px;
-    border-bottom: 1px solid #fffef9;
+    margin: 0 auto;
+    width: 100px;
     /* Typography */
+    text-align: center;
     /* Visual */
+    border-bottom: 1px solid #fff;
     /* Misc */ }
   div.moiz-contact p {
     /* Positioning */
     /* Box-model */
     max-width: 310px;
+    margin: 60px auto 0 auto;
     /* Typography */
     font-family: 'Mercury SSm A', 'Mercury SSm B';
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     line-height: 1.6;
+    text-align: justify;
     /* Visual */
+    color: #fff;
     /* Misc */ }
   div.moiz-contact a {
     /* Positioning */
@@ -2851,6 +2909,30 @@ div.moiz-contact {
       /* Visual */
       /* Misc */ }
 
+/*****************************************************************************/
+/*
+/* Helpers
+/*
+/*****************************************************************************/
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none; }
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none; }
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px; }
+
 .text-center {
   text-align: center; }
   .text-center h4 {
@@ -2864,8 +2946,3 @@ div.moiz-contact {
     /* Misc */ }
   .text-center img {
     margin: 0 auto; }
-
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
