@@ -2603,12 +2603,12 @@ div.moiz-jumbotron {
   @media screen and (max-width: 500px) {
     div.moiz-jumbotron {
       padding-top: 100px;
-      height: 500px; } }
+      height: 550px; } }
   div.moiz-jumbotron img {
     /* Positioning */
     /* Box-model */
     max-width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     /* Typography */
     /* Visual */
     /* Misc */ }
@@ -2618,7 +2618,7 @@ div.moiz-jumbotron {
     margin: 0;
     /* Typography */
     font-weight: 700;
-    font-size: 12px;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 3px;
     /* Visual */
@@ -2627,7 +2627,7 @@ div.moiz-jumbotron {
     /* Positioning */
     /* Box-model */
     /* Typography */
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
     /* Visual */
     /* Misc */ }
@@ -2652,33 +2652,45 @@ div.moiz-about {
   /* Typography */
   /* Visual */
   /* Misc */ }
+  div.moiz-about img {
+    /* Positioning */
+    /* Box-model */
+    max-width: 200px;
+    margin-bottom: 40px;
+    /* Typography */
+    /* Visual */
+    /* Misc */ }
   div.moiz-about h2 {
     /* Positioning */
     /* Box-model */
-    margin-bottom: 0;
+    margin-top: 0 auto;
     /* Typography */
     font-size: 42px;
+    text-align: center;
     /* Visual */
     /* Misc */ }
   div.moiz-about h3 {
     /* Positioning */
     /* Box-model */
-    margin-top: 0;
-    max-width: 100px;
-    border-bottom: 1px solid #111;
+    margin: 0 auto;
+    width: 100px;
     /* Typography */
+    text-align: center;
     /* Visual */
+    border-bottom: 1px solid #111;
     /* Misc */ }
   div.moiz-about p {
     /* Positioning */
     /* Box-model */
     max-width: 310px;
+    margin: 60px auto 0 auto;
     /* Typography */
     font-family: 'Mercury SSm A', 'Mercury SSm B';
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     line-height: 1.6;
+    text-align: justify;
     /* Visual */
     /* Misc */ }
   div.moiz-about a {

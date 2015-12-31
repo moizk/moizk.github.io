@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moiz K. Malik - Bushwick, Brooklyn</title>
+    <description>I&#39;m Moiz, a hacker and designer currently living in Bushwick, Brooklyn. I like to build things.
+</description>
+    <link>http://moiz.org/</link>
+    <atom:link href="http://moiz.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 31 Dec 2015 12:01:53 -0500</pubDate>
+    <lastBuildDate>Thu, 31 Dec 2015 12:01:53 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+  </channel>
+</rss>
