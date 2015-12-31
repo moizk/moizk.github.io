@@ -2600,6 +2600,10 @@ div.moiz-jumbotron {
   background-color: #ffc03a;
   color: #222;
   /* Misc */ }
+  @media screen and (max-width: 500px) {
+    div.moiz-jumbotron {
+      padding-top: 100px;
+      height: 500px; } }
   div.moiz-jumbotron img {
     /* Positioning */
     /* Box-model */
